@@ -19,3 +19,12 @@ models:
         tests:
           - unique
           - not_null
+  
+  - name: count_status_orders
+    description: "นับสถานะของออเดอร์"
+    columns:
+      - name: status
+        description: "order status"
+        tests:
+          - unique
+          - not_null
